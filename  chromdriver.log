@@ -1,0 +1,547 @@
+[1634253921.411][INFO]: Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 57131
+[1634253921.411][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1634253921.909][INFO]: [d0ba906463cb496760cfa0021947a7d7] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "pageLoadStrategy": "normal"
+   }
+}
+[1634253921.913][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1634253921.913][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1634253921.913][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/j8/6l2yv80j6p17p0hb_7k8pjxh0000gn/T/.com.google.Chrome.vRuO7w data:,
+
+DevTools listening on ws://127.0.0.1:57142/devtools/browser/205ba8a4-4695-49cf-91dc-49a50753708f
+[1634253922.291][DEBUG]: DevTools HTTP Request: http://localhost:57142/json/version
+[1634253923.008][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/94.0.4606.81",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+   "V8-Version": "9.4.146.21",
+   "WebKit-Version": "537.36 (@5a03c5f1033171d5ee1671d219a59e29cf75e054)",
+   "webSocketDebuggerUrl": "ws://localhost:57142/devtools/browser/205ba8a4-4695-49cf-91dc-49a50753708f"
+}
+
+[1634253923.008][DEBUG]: DevTools HTTP Request: http://localhost:57142/json/list
+[1634253923.015][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:57142/devtools/page/AE1BCE73DB398697DD41BFD5C65CBB3C",
+   "id": "AE1BCE73DB398697DD41BFD5C65CBB3C",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:57142/devtools/page/AE1BCE73DB398697DD41BFD5C65CBB3C"
+} ]
+
+[1634253923.016][DEBUG]: DevTools HTTP Request: http://localhost:57142/json/list
+[1634253923.021][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:57142/devtools/page/AE1BCE73DB398697DD41BFD5C65CBB3C",
+   "id": "AE1BCE73DB398697DD41BFD5C65CBB3C",
+   "title": "",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:57142/devtools/page/AE1BCE73DB398697DD41BFD5C65CBB3C"
+} ]
+
+[1634253923.022][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1634253923.025][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=1) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1634253923.025][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=2) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1634253923.025][DEBUG]: DevTools WebSocket Command: Log.enable (id=3) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.025][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=4) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.026][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=5) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1634253923.026][DEBUG]: DevTools WebSocket Command: Page.enable (id=6) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.026][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.053][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=1) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "identifier": "1"
+}
+[1634253923.053][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=2) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "result": {
+      "type": "undefined"
+   }
+}
+[1634253923.053][DEBUG]: DevTools WebSocket Response: Log.enable (id=3) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.053][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=4) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "data:,",
+      "childNodeCount": 0,
+      "children": [  ],
+      "compatibilityMode": "NoQuirksMode",
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1634253923.053][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=5) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.054][DEBUG]: DevTools WebSocket Response: Page.enable (id=6) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.054][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.054][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.058][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "node": {
+      "attributes": [  ],
+      "backendNodeId": 2,
+      "childNodeCount": 0,
+      "frameId": "AE1BCE73DB398697DD41BFD5C65CBB3C",
+      "localName": "html",
+      "nodeId": 2,
+      "nodeName": "HTML",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 0
+}
+[1634253923.058][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "childNodeCount": 1,
+   "nodeId": 2
+}
+[1634253923.058][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "childNodeCount": 2,
+   "nodeId": 2
+}
+[1634253923.058][DEBUG]: DevTools WebSocket Event: Page.loadEventFired AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "timestamp": 1078115.076596
+}
+[1634253923.058][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=9) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1634253923.058][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "frameId": "AE1BCE73DB398697DD41BFD5C65CBB3C"
+}
+[1634253923.058][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.058][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=10) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.058][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "timestamp": 1078115.077496
+}
+[1634253923.058][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "context": {
+      "auxData": {
+         "frameId": "AE1BCE73DB398697DD41BFD5C65CBB3C",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "7132384039113201428.-1340346914910367027"
+   }
+}
+[1634253923.058][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.059][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=9) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1634253923.059][DEBUG]: DevTools WebSocket Command: Page.enable (id=11) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.059][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=10) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 2,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 5,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 4
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 6,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 4
+         } ],
+         "frameId": "AE1BCE73DB398697DD41BFD5C65CBB3C",
+         "localName": "html",
+         "nodeId": 4,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 3
+      } ],
+      "compatibilityMode": "NoQuirksMode",
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 3,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1634253923.059][DEBUG]: DevTools WebSocket Response: Page.enable (id=11) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.059][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=12) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.060][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=12) AE1BCE73DB398697DD41BFD5C65CBB3C {
+
+}
+[1634253923.060][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=13) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1634253923.063][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=13) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1634253923.063][INFO]: [d0ba906463cb496760cfa0021947a7d7] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "94.0.4606.81",
+      "chrome": {
+         "chromedriverVersion": "94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204})",
+         "userDataDir": "/var/folders/j8/6l2yv80j6p17p0hb_7k8pjxh0000gn/T/.com.google.Chrome.vRuO7w"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57142"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d0ba906463cb496760cfa0021947a7d7"
+}
+[1634253923.066][INFO]: [d0ba906463cb496760cfa0021947a7d7] COMMAND AddCookie {
+   "cookie": [ {
+      "domain": ".forms.office.com",
+      "expirationDate": 1636844862.062241,
+      "hostOnly": false,
+      "httpOnly": true,
+      "name": "usenewauthrollout",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": false,
+      "storeId": null,
+      "value": "True"
+   }, {
+      "domain": ".forms.office.com",
+      "expirationDate": 1642028920.570679,
+      "hostOnly": false,
+      "httpOnly": true,
+      "name": "AADAuth.forms",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": false,
+      "storeId": null,
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Imwzc1EtNTBjQ0g0eEJWWkxIVEd3blNSNzY4MCIsImtpZCI6Imwzc1EtNTBjQ0g0eEJWWkxIVEd3blNSNzY4MCJ9.eyJhdWQiOiJjOWE1NTlkMi03YWFiLTRmMTMtYTZlZC1lN2U5YzUyYWVjODciLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9jNGI5OTZmOC02ZDA4LTQxZDMtODYwYi03YWRiYTIxNjFjNzcvIiwiaWF0IjoxNjM0MjUyNjIwLCJuYmYiOjE2MzQyNTI2MjAsImV4cCI6MTYzNDI1NjUyMCwiYWlvIjoiQVNRQTIvOFRBQUFBQVRxc3IyUzF1eVN0N21pUllkS3YxdFltODFXZHNDMUdHWVp1RDF1SGo1ND0iLCJhbXIiOlsicHdkIl0sImNfaGFzaCI6Ink0Ul9TSzRvbGI5QjhQQ0xsTWdLaXciLCJmYW1pbHlfbmFtZSI6IktoaW1hbmkiLCJnaXZlbl9uYW1lIjoiTmFzaXIiLCJpcGFkZHIiOiI5OS4yNDcuMzUuMTY4IiwibmFtZSI6IktoaW1hbmksIE5hc2lyIiwibm9uY2UiOiI2Mzc2OTg0OTY3ODQ0NDE5NzguTjJObE5HSmhPRGd0T1dWaFpTMDBOR1l5TFRneFpEVXRPV1V3WldFd01qTXhPVGsxTkRCa1pqVXpOV0l0TURJeVppMDBaVEV5TFdKbU5XWXROakpsWW1JM1l6UmpNakUxIiwib2lkIjoiNDVkOTQ5NjctOTA2Mi00MzRmLWExMmYtYzU3YzRmNDkzODAzIiwib25wcmVtX3NpZCI6IlMtMS01LTIxLTE2OTg3NzYwNzItMjI3MDkxMDAyMS0yMjQ5NDA5NDEwLTQ3ODQiLCJwdWlkIjoiMTAwMzIwMDBBODE1OEE2OSIsInJoIjoiMC5BU2dBLUphNXhBaHQwMEdHQzNyYm9oWWNkOUpacGNtcmVoTlBwdTNuNmNVcTdJY29BSFkuIiwic3ViIjoiWEh6YTAtdkhiM2Y5ekN4R3NKUWJxQzFFZVpXNjR2VXdNaTVMXzlmXzlFSSIsInRpZCI6ImM0Yjk5NmY4LTZkMDgtNDFkMy04NjBiLTdhZGJhMjE2MWM3NyIsInVuaXF1ZV9uYW1lIjoiTmFzaXJLaGltYW5pQHN0dWRlbnQubWVudG9yY29sbGVnZS5lZHUiLCJ1cG4iOiJOYXNpcktoaW1hbmlAc3R1ZGVudC5tZW50b3Jjb2xsZWdlLmVkdSIsInV0aSI6ImxFbUk2NWpXNVVlLWdDa0VDbjlrQUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdfQ.a1piWTidfbm-RvJZDmOr5rgsJn1G1N06FI69Sbe-KmmoT7ESTgl50z13HhhjHcORK39b8b0qMBcxhaCq--lgoCpu8ObrfrZSl9xQJ1XWVn9wLrnZPeqHus8gYs5gvT2yd3xaZx1U1b9K1_qnaQzBovxvKVJcw5hEP0bLJr1-w_Pb8RRbFIjDkFhJB6QkdKswWUgvvvz9BUPlcYfc5QlBihgtc91umVHKVj98pL0OwqnW6pNqOBtIOKAgBI020mXiGveViz1WWFBAwUYvO58CW-F9pKVNqPZfrSakcxm51iuHKtY8geW_t-fv6PRt0fdVjABho9x7rOssvRhFg83k_A"
+   }, {
+      "domain": "forms.office.com",
+      "expirationDate": 1634256520.570818,
+      "hostOnly": true,
+      "httpOnly": true,
+      "name": "OIDCAuth.forms",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": false,
+      "storeId": null,
+      "value": "AauxRt8-qR6g38RHWpuCPsjms8SXdk1Ew7riiGy70nh8dosaORR_UqGm8USXQThKRFnKLJvi5sSst8nDF3zm5amCXkbf1spW6Q8ZZIovxV7ASkPSiGKsiFtxdBFhHCZV-IFimClVkmE4XN29Xxu9pnPhidgz8nYMZtFnyShKVDIHGs247HfJ4kHBwlzXICHq6dJI0tcqSFTF63KVDVXHHEOzQLq5fEe0aA1WpF2f3vHfkLBhIKZgo5nUIg15vUNk0iaTs-CgiwAYiSK5p-hcgMSKcNxjdJbzuEr2COwqkuWW879tY2Qf7RNYXma-YlOmiCwESZTC0-z6SlbPHAP1iehboGxjX2gIeNOE3hfoHxMVknpkUdjpbnwhtm0lavWEfDe2CZl23rO9VjjiE5GZ7xV1Akxj0ZnbC-iQI7G8bq2e0koxQC_lxgP7CFgUbLa6bwGRn6hrnf0ZqwG-jsyOUtOO6SIzYEq9-D5G1NT6Z6EDFqXcVICDF1bXEsXfv8WgyJ9m2ppHQFlPkI08R6rFkknrYLBJjjjjM2TCwo38cf03Vawh8BYQFw36ggt6XmHZQXZ6O9rcqs2p017jG_a65qYjS7d4pICykrSurOyBS4-sEUS_ED-BspCVIgnLx4VHBMJSfEaT0LqH3kf2SmrUy0PP6ndV413RJjefCHUzIIWSAoVS_0_wRpVq8lhbADZ3Ex5QE_hGgqoLae1OxN3pHseu5W9xzJtKf_yaOh6EvkSS8Yf21d1b2ydOs9fI6Bws2trZW8NjdhkfEsca8PeN3irbTcUfiSF5xIdoL8I52UgArpv4h8ivjbxik6MDe3j9EyzRPM9Lj9r2FScifqMOEQUd9d1C-25MfzQFoN9QGiMUioAb5dZ3czKstH3ATT3uuHDpVxhG-4P7OEK8uNwkrNPgA8rzipEhAfaZI-WuId7ywmQzXwlIFmDcGrLCsShydie-Oga0nsxHZlVfxoK2Q8FgUyy2AbEt0if9mlJ11h5BIETPbsk7bVoUAfGMEuquOYeoqu6hylr582vd9LXk3qxEE8HCDi3wqpdEnbSg_eoY2J83LIXV2fYIZcEk5V6Va2m4474lOPiNbtzF4SIsqP3XaVU7pJWQFqac7NoUH_N8Gl6FJgg0HLvekQrMDix2snTzoOiLSb4AsUT_0SumO5FhW8GhMatbEJm6rYQtekcatwUHjTEWAR6u-sc6EKVwV7oRo30W5l9zGOjjfUIXstFpqqn-peKL4SVAFNzwSiM2uSglqDKXg_DqLI59kyiqNHueD8ZadtdchbDFEHEKa4d-tF8VPVCMACSDP-433afflryGx9ok1SkQAoxNAJrvNlVjWHTtcoNG0TkaJahfh4vpkfwGoSqYNpCA8r0VabCo05af7lYqchqQrwqgsGBYFnsvPPulr0sWpLKKNwxKyq0gtnvJ9ZojgFv43DlcCYNkcmBolUQzw0JKJNLNxkGL1rDz4qrWdSjUgUkdCgvMrfgHmZeBfmMoZjfEFlByySw3HBjPNU0KRfixgZI2QRk5ihE-0h4uKtQhWX8eOA-rs4Yk2dPlUr8OuQTtAriSxvhkTfd3W8UJANh8sOndGkUzpLX1viJD6hzDKf0gARkEvm3R9ppCS7vQx2u-RVo5pxUc"
+   }, {
+      "domain": "forms.office.com",
+      "expirationDate": 1665788921.21553,
+      "hostOnly": true,
+      "httpOnly": false,
+      "name": "MicrosoftApplicationsTelemetryDeviceId",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": false,
+      "storeId": null,
+      "value": "4a5ab18c-5962-4c56-8c8a-406c7ce1ce54"
+   }, {
+      "domain": ".forms.office.com",
+      "expirationDate": 1636844862.062101,
+      "hostOnly": false,
+      "httpOnly": true,
+      "name": "FormsWebSessionId",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": false,
+      "storeId": null,
+      "value": "434f84a0-162f-4e1d-90c6-4763bab6c537"
+   }, {
+      "domain": "forms.office.com",
+      "hostOnly": true,
+      "httpOnly": true,
+      "name": "__RequestVerificationToken",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": true,
+      "storeId": null,
+      "value": "x3af2RWMbm-4W8ZS4QcsisjNjg8NK6ywHVuMhG6w62dYwhCymvD2Ku4mHSyWqjS5-klqsYAFfo3Koe-hJJbRZadh684aXR4tIj1RotLqGyw1"
+   }, {
+      "domain": ".forms.office.com",
+      "expirationDate": 1642028920.570784,
+      "hostOnly": false,
+      "httpOnly": true,
+      "name": "AADAuthCode.forms",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": false,
+      "storeId": null,
+      "value": "0.ASgA-Ja5xAht00GGC3rbohYcd9JZpcmrehNPpu3n6cUq7IcBAAA.AQABAAIAAAD--DLA3VO7QrddgJg7WevrUAU-hvCKZ8f7-whFghrFqT3KZJx2jJ_j9UTKBw8hTVFN9fU_UYtYYYANUzF28zVtIlgKPErfaUR4XxIfypTDNWeX9a31utapL23o2u6yYLXqU-XpKKjInQQX5R3vMWPoL3RAvuc2ES7Xl6xKAb2whWYnUNwsLqRfdmKszUlqTjAtnN9t-Ga1eb6Txe8I0BzZ-_zt_HC-Sly0q3MEfmnrTCAjuiaVrZiemMH9_CuroAyDc1RLjIxOTfifAITa7gD7rp10STUnE2xmfMc3DOZ-IYRknZLEfzpS9TJbRfk_ZZu_Jn7QGZGwQFhPbeTqCSOHQMZ981ZAMDkx8pPnJkFC-XR-jDudJuSyCOB12gfHDnKIdNW64KtPbH_gnOYhKgOk6zsLtLG5JJOqkWOCrVvZCodkUqVhuxuUQ8I17lg40Q0BXpJBO763OmZh6uL42aGkwO0qxq4_iC3_I6pkrGAcgLt-JBI1_OKQQ8eBA2Aq2p8HLZAuaS_XO7vntoX-VgX2d819U2lZokMJEHzksoGpjX5DHQ2Qde8zON7peDORBsn_cAQk-Fkp5Gq7CWK5ZkCXi1zjoxpvVUhaAzz3D_GCNZOT9nYWrN4RNiUcHp-djfrX1ZNu7pGfnQkvM5FipvnulbW7VoR6DH1zw5T4IIXiFF9_gWywzlqHH9yY85a96d7VVTM0dqxwZUuBKLebA0lpIAA"
+   }, {
+      "domain": "forms.office.com",
+      "expirationDate": 1634254721,
+      "hostOnly": true,
+      "httpOnly": false,
+      "name": "ai_session",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": false,
+      "storeId": null,
+      "value": "YqBxwgm8qtKR1EEA9Ltsws|1634252921235|1634252921235"
+   }, {
+      "domain": "forms.office.com",
+      "expirationDate": 1642201722.143723,
+      "hostOnly": true,
+      "httpOnly": true,
+      "name": "DcLcid",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": false,
+      "storeId": null,
+      "value": "ui=1033&data=1033"
+   }, {
+      "domain": "forms.office.com",
+      "expirationDate": 1665788924.025622,
+      "hostOnly": true,
+      "httpOnly": false,
+      "name": "MSFPC",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": false,
+      "storeId": null,
+      "value": "GUID=dbc7ce66bc8647628d8c8c0ad154800d&HASH=dbc7&LV=202110&V=4&LU=1634252919002"
+   }, {
+      "domain": ".office.com",
+      "expirationDate": 1667948863.057116,
+      "hostOnly": false,
+      "httpOnly": false,
+      "name": "MUID",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": false,
+      "storeId": null,
+      "value": "2C55EC86B8B5657F30DEFC56BCB56EA5"
+   }, {
+      "domain": ".forms.office.com",
+      "expirationDate": 1636844862.062301,
+      "hostOnly": false,
+      "httpOnly": true,
+      "name": "usenewrpsauthrollout",
+      "path": "/",
+      "sameSite": "no_restriction",
+      "secure": true,
+      "session": false,
+      "storeId": null,
+      "value": "True"
+   } ]
+}
+[1634253923.066][INFO]: Waiting for pending navigations...
+[1634253923.066][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "expression": "1"
+}
+[1634253923.068][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1634253923.068][INFO]: Done waiting for pending navigations. Status: ok
+[1634253923.068][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=15) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "expression": "1"
+}
+[1634253923.068][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=15) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1634253923.068][INFO]: Waiting for pending navigations...
+[1634253923.068][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "expression": "1"
+}
+[1634253923.069][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) AE1BCE73DB398697DD41BFD5C65CBB3C {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1634253923.069][INFO]: Done waiting for pending navigations. Status: ok
+[1634253923.069][INFO]: [d0ba906463cb496760cfa0021947a7d7] RESPONSE AddCookie ERROR invalid argument: missing 'cookie'
+  (Session info: chrome=94.0.4606.81)
+[25063:75019:1014/193002.985287:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[25063:75019:1014/193002.986787:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+[25063:75019:1014/193002.986884:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[25063:75019:1014/193002.987629:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            [24932:106503:1014/192950.894015:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[24932:106503:1014/192950.895237:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+[24932:106503:1014/192950.895313:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[24932:106503:1014/192950.895914:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
