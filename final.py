@@ -76,9 +76,9 @@ while qts:
         qts = ''
     
 try:
-    driver.find_element(By.XPATH,'/html/body/div/div/div/div/div[1]/div/div[1]/div[2]/div[3]/div[1]/button/div').click()
+    driver.find_element(By.XPATH,'/html/body/div/div/div/div/div[1]/div/div[1]/div[2]/div[3]/div[1]/button/div').click() #submit button
 except:
-    raise Exception("Something went wrong. Ensure your password is in password.pw")
+    raise Exception("Something went wrong. Ensure your password is in password.pw") #exception
 
 
 
